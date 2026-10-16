@@ -1,0 +1,26 @@
+{
+  "name": "appium-trial",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Greg-North-QA/appium-trial#readme",
+  "bugs": {
+    "url": "https://github.com/Greg-North-QA/appium-trial/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Greg-North-QA/appium-trial.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "app:android": "npm --prefix mobile-app run android",
+    "app:install": "npm --prefix mobile-app run android:native",
+    "app:check": "npm --prefix mobile-app run check"
+  },
+  "devDependencies": {
+    "webdriverio": "^10.0.2"
+  }
+}

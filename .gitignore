@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+mobile-app/node_modules/
+
+# Expo and React Native build output
+.expo/
+dist/
+mobile-app/.expo/
+mobile-app/android/
+mobile-app/ios/
+
+# Logs and local configuration
+*.log
+.env
+.env.*.local
+
+# macOS
+.DS_Store
